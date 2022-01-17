@@ -3,12 +3,12 @@ import {Item} from "../App";
 import '../styles/passListItem.css'
 
 interface PassListItemProps {
-    options: Item
+    option: Item
 }
 
-const PassListItem: React.FC<PassListItemProps> = (props) => {
+const PassListItem: React.FC<PassListItemProps> = ({option}) => {
     return (
-        <li className="list-item">{props.options.title}</li>
+        <li className="list-item">{option.title}</li>
     )
 }
 

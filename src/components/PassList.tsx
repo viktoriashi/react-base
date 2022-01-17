@@ -8,13 +8,13 @@ interface PassListProps {
 }
 
 
-const PassList: React.FC<PassListProps> = (props) => {
+const PassList: React.FC<PassListProps> = ({passType}) => {
     return(
         <ul className="pass-list">
-            {props.passType.options.map(passOption => {
+            {passType.options.map(passOption => {
                 return (
                     <div key={passOption.id}>
-                        <PassListItem options={passOption} ></PassListItem>
+                        <PassListItem option={passOption} ></PassListItem>
                     </div>
                 )
             })}            
