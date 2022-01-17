@@ -1,0 +1,9 @@
+.pass-list {
+    list-style: none;
+    list-style-image: url(../images/check-mark.png);
+  
+    border-bottom: 2px dashed rgb(179, 178, 178);
+  
+    padding: 20px 30px;    
+}
+  

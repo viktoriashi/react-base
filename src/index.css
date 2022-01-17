@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(245, 245, 245, 0.938);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.heading {
+  font-size: 44px;
+  font-weight: normal;
+  margin: 10vh 0 5vh;
+}
+
+.forms {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+}
+
+.box {
+  width: 420px;
+  height: 670px;
+  background-color: rgb(40, 126, 66);
+  border-radius: 5%;
+  margin: 0 40px;
+}
+
+.box__text-description {
+  display: block;
+  margin: 25px 30px 0;
+}
+
+.box__text {
+  font-size: 34px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+
+  margin-bottom: 0;
+}
+
+.box__bold-text {
+  color: white;
+  margin-top: 0;
+}
+
+.box__main-text {
+  color: white;
+
+}
+
+.box__image {
+  width: inherit;
+  height: 65%;
+  border-radius: 6.5%;
+  
+  margin-top: 78px;
+
+  background:url(../src/images/arrow.png) no-repeat;
+  background-position: 7% 2%;
+}
