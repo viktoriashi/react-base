@@ -13,8 +13,8 @@ const PassList: React.FC<PassListProps> = (props) => {
         <ul className="pass-list">
             {props.passType.options.map(passOption => {
                 return (
-                    <div>
-                        <PassListItem key={passOption.id} options={passOption} ></PassListItem>
+                    <div key={passOption.id}>
+                        <PassListItem options={passOption} ></PassListItem>
                     </div>
                 )
             })}            
