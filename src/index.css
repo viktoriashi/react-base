@@ -21,9 +21,9 @@ code {
 }
 
 .heading {
-  font-size: 44px;
+  font-size: 2.75rem;
   font-weight: normal;
-  margin: 10vh 0 5vh;
+  margin: 7vh 0 3vh;
 }
 
 .forms {
@@ -37,32 +37,37 @@ code {
 .box {
   width: 420px;
   height: 670px;
-  background-color: rgb(40, 126, 66);
+  background-color: rgba(29, 96, 50, 1);
   border-radius: 5%;
-  margin: 0 40px;
+  margin: 15px 40px;
 }
 
 .box__text-description {
   display: block;
-  margin: 25px 30px 0;
+  margin: 45px 40px 0;
 }
 
 .box__text {
-  font-size: 34px;
-  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
   color: white;
 
   margin-bottom: 0;
 }
 
 .box__bold-text {
+  font-size: 2.1rem;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
   margin-top: 0;
 }
 
 .box__main-text {
-  color: white;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
 
+  color: white;
 }
 
 .box__image {
@@ -70,7 +75,7 @@ code {
   height: 65%;
   border-radius: 6.5%;
   
-  margin-top: 78px;
+  margin-top: 20px;
 
   background:url(../src/images/arrow.png) no-repeat;
   background-position: 7% 2%;

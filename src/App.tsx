@@ -46,11 +46,11 @@ export function printPassType(title: string) {
 const App: React.FC = () => {
   return (
     <div className="wrapper">
-      <h1 className="heading">Transparent pricing for you</h1>
+      <h1 className="heading">Transparent Pricing For You</h1>
       <div className="forms">
         <div className="box">
               <div className="box__text-description">
-                  <h1 className="box__text">Save more</h1>
+                  <h1 className="box__text">Save More</h1>
                   <h1 className="box__bold-text">With Goodplans.</h1>
                   <div className="box__main-text">Choose a plan and get onboard in minutes. Then get $100 credits for your next payment.</div>
               </div>

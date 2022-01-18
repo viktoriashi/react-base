@@ -1,9 +1,9 @@
 .box {
     width: 420px;
     height: 670px;
-    background-color: rgb(40, 126, 66);
+    background-color: rgba(29, 96, 50, 1);
     border-radius: 5%;
-    margin: 0 40px;
+    margin: 15px 40px;
   }
   
 .box-passform {
@@ -16,9 +16,9 @@
 .box-passform__pass-type {
     display: grid;
     grid-template-columns: 60px 1fr;
-    grid-template-rows: 60px 1fr;
+    grid-template-rows: 70px 1fr;
 
-    padding: 30px;
+    padding: 45px 30px;
 }
 
 .box-passform__icon {
@@ -28,7 +28,7 @@
 }
 
 .pass-type__text {
-    font-size: 36px;
+    font-size: 2.25rem;
     margin: 0;
 }
 
@@ -37,8 +37,8 @@
     grid-column-start: 1;
     grid-column-end: 3;
 
-    color: rgb(146, 145, 145);
-    font-size: 20px;
+    color: rgb(165, 163, 163);
+    font-size: 1.5rem;
     font-weight: 400;
 
     padding-left: 8px;
@@ -51,7 +51,7 @@
     align-items: center;
     justify-content: space-between;
 
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 .box-passform__conditions {
@@ -62,23 +62,26 @@
     padding: 25px 35px;
 }
 
-.box-passform__price {
-    font-size: 1rem;
+.box-passform__period {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 6%;
 }
 
 .box-passform__price_bold {
-    font-size: 2rem;
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
 
-.box__button {
-    width: 80%;
+.box-passform__button {
+    width: 85%;
     height: 10%;
-    font-size: 1.2vw;
+    font-size: 1.4rem;
+    font-weight: 600;
 
-    background-color: rgb(40, 126, 66);
+    background-color: rgba(29, 96, 50, 1);
     color: white;
     border-radius: 10px;
     border: none;
@@ -87,6 +90,6 @@
     margin-bottom: 20px;
 }
 
-.box__button:active {
+.box-passform__button:active {
     background-color: rgb(49, 158, 82);
 }
