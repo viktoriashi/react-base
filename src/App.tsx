@@ -10,12 +10,14 @@ export type Item = {
 
 export interface Pass {
   price: number
+  title: string
   period: string
   options: Array<Item>
 }
 
 const dayPass:Pass = {
   price: 20,
+  title: 'Day Pass',
   period: 'day',
   options: [    
     {id: 1, title: '8 hours usage of our coworking space'},
@@ -25,6 +27,7 @@ const dayPass:Pass = {
 
 const monthlyPass:Pass = {
   price: 380,
+  title: 'Monthly Pass',
   period: 'month',
   options: [
     {id: 1, title: '8 hours usage of our coworking space'},
@@ -35,10 +38,8 @@ const monthlyPass:Pass = {
   ]
 }
 
-export function printPassType(period: string) {
-  period === 'day' ?
-  console.log('Day Pass') :
-  console.log('Monthly Pass')
+export function printPassType(title: string) {
+  console.log(title)
 }
 
 
